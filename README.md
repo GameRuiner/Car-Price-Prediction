@@ -1,53 +1,53 @@
-# Car Price Prediction
+# Predykcja i analiza cen samochodów
 
-This project predicts car prices based on various features using Machine Learning models.
+Ten projekt przewiduje ceny samochodów na podstawie różnych cech przy użyciu modeli uczenia maszynowego.
 
-📌 Features
+📌 Funkcje
 
-- Data preprocessing and feature engineering
-- Model training and evaluation
+- Przygotowanie i inżynieria cech danych
+- Trenowanie i ocena modelu
 
-## 🛠 Setup Environment
+## 🛠 Konfiguracja środowiska
 
-To set up the project, follow these steps:
+Aby skonfigurować projekt, wykonaj następujące kroki:
 
-1️⃣ Clone the Repository
+1️⃣  Sklonuj Repozytorium
 
 ```sh
 git clone https://github.com/GameRuiner/Car-Price-Prediction.git
 cd Car-Price-Prediction
 ```
 
-2️⃣ Create and Activate a Virtual Environment
+2️⃣ Utwórz i aktywuj środowisko wirtualne
 
-On Windows (PowerShell):
+Na Windows (PowerShell):
 
 ```sh
 python -m venv .venv
 .venv\Scripts\Activate
 ```
 
-On macOS/Linux:
+Na macOS/Linux:
 
 ```sh
 python3 -m venv .venv
 source .venv/bin/activate
 ```
 
-3️⃣ Install Dependencies
+3️⃣ Zainstaluj wymagane biblioteki
 
 ```sh
 pip install -r requirements.txt
 ```
 
-## 📦 Dependencies
+## 📦 Zależności
 
-To automatically generate a `requirements.txt` file containing all Python package dependencies used in the notebooks, run:
+Aby automatycznie wygenerować plik requirements.txt zawierający wszystkie używane w notebookach pakiety Pythona, uruchom:
 
 ```sh
 pipreqs --scan-notebooks --force  working/notebooks
 ```
 
-## 📜 License
+## 📜 Licencja
 
-This project is licensed under the MIT License.
+Ten projekt jest licencjonowany na zasadach licencji MIT.
