@@ -37,7 +37,7 @@ source .venv/bin/activate
 3️⃣ Zainstaluj wymagane biblioteki
 
 ```sh
-pip install -r requirements.txt
+pip install -r working/notebooks/requirements.txt
 ```
 
 ## 📦 Zależności
